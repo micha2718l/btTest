@@ -13,5 +13,30 @@ public class MainActivity extends Activity
 	{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
+        Button buttonOn = (Button) findViewById(R.id.buttonOn);
+        Button buttonOff = (Button) findViewById(R.id.buttonOff);
+
+        buttonOn.setOnClickListener(new View.OnClickListener()
+        {
+          public void onClick(View v)
+          {
+        	  TextView text1 = (TextView) findViewById(R.id.textView1);
+        	  text1.setText("Button!");
+        	  
+          }
+        });
+        
+        
+        buttonOff.setOnClickListener(new View.OnClickListener()
+        {
+          public void onClick(View v)
+          {
+        	  TextView text1 = (TextView) findViewById(R.id.textView1);
+        	  text1.setText("");
+        	  
+          }
+        });
+        
     }
 }
