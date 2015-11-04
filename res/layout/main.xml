@@ -52,29 +52,19 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:src="@drawable/ic_launcher" />
+            android:layout_alignParentTop="true" />
+		
 
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/checkBox1"
-            android:layout_alignBottom="@+id/checkBox1"
-            android:layout_alignParentRight="true"
-            android:text="CheckBox" />
-
-        <CheckBox
-            android:id="@+id/checkBox1"
-            android:layout_width="wrap_content"
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/buttonOn"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="74dp"
-            android:text="CheckBox" />
+            android:layout_marginBottom="74dp" />
 
 
     </RelativeLayout>
